@@ -1,0 +1,9 @@
+<div class="bg-dark p-2 text-center" style="border-radius: 1rem">
+  <div>
+    <h5>{{ user?.name }}</h5>
+    <p>{{ user?.email }}</p>
+    <button class="btn btn-success" [routerLink]="['user', user?.id]">
+      Details
+    </button>
+  </div>
+</div>
